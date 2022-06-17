@@ -1,0 +1,23 @@
+Name: Math Painting
+Description: this app asks user upleft corners for 
+rectangles (or squares) and it's RGB colour, width and height, 
+after that it draws (generate image) of these shapes on canvas
+whith previously specified background colour (white or black).
+Objects:
+        Canvas:
+            width
+            height
+            background
+            generate_file(path)
+        Rectangle:
+            upleft
+            RGB
+            height
+            width
+            draw(canvas)
+        Square:
+            upleft
+            RGB
+            side
+            draw(canvas)
+
